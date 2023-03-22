@@ -1,0 +1,61 @@
+/* Estilização geral */
+.galeria__imagens {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    width: calc(33.33% - 20px);
+    vertical-align: top;
+    position: relative;
+  }
+  
+  .galeria__imagens:hover img {
+    transform: scale(1.1);
+  }
+  
+  .galeria__imagens img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    transition: transform 0.5s ease;
+  }
+  
+  .galeria__linha {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Estilização do botão "Ver mais" */
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #005D6E;
+  }
+  
+  /* Estilização do cabeçalho */
+  header {
+    background-color: #008CBA;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+  }
+  
+  /* Estilização do rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
